@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SWAGGER_CONFIG_API.props" />
+</Project>

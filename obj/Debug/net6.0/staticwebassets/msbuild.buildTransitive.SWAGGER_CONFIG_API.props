@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\SWAGGER_CONFIG_API.props" />
+</Project>
