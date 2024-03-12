@@ -4,6 +4,222 @@
     "C:\\Users\\Yassir.JERRARI\\source\\repos\\SWAGGER_CONFIG_API\\SWAGGER_CONFIG_API\\SWAGGER_CONFIG_API.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Yassir.JERRARI\\source\\repos\\SWAGGER_CONFIG_API\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Yassir.JERRARI\\source\\repos\\SWAGGER_CONFIG_API\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "C:\\Users\\Yassir.JERRARI\\source\\repos\\SWAGGER_CONFIG_API\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Yassir.JERRARI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yassir.JERRARI\\source\\repos\\SWAGGER_CONFIG_API\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Yassir.JERRARI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Yassir.JERRARI\\source\\repos\\SWAGGER_CONFIG_API\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Yassir.JERRARI\\source\\repos\\SWAGGER_CONFIG_API\\Domain\\Domain.csproj"
+              },
+              "C:\\Users\\Yassir.JERRARI\\source\\repos\\SWAGGER_CONFIG_API\\Infastructure\\Infastructure.csproj": {
+                "projectPath": "C:\\Users\\Yassir.JERRARI\\source\\repos\\SWAGGER_CONFIG_API\\Infastructure\\Infastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Yassir.JERRARI\\source\\repos\\SWAGGER_CONFIG_API\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Yassir.JERRARI\\source\\repos\\SWAGGER_CONFIG_API\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\Yassir.JERRARI\\source\\repos\\SWAGGER_CONFIG_API\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Yassir.JERRARI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yassir.JERRARI\\source\\repos\\SWAGGER_CONFIG_API\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Yassir.JERRARI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Yassir.JERRARI\\source\\repos\\SWAGGER_CONFIG_API\\Infastructure\\Infastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Yassir.JERRARI\\source\\repos\\SWAGGER_CONFIG_API\\Infastructure\\Infastructure.csproj",
+        "projectName": "Infastructure",
+        "projectPath": "C:\\Users\\Yassir.JERRARI\\source\\repos\\SWAGGER_CONFIG_API\\Infastructure\\Infastructure.csproj",
+        "packagesPath": "C:\\Users\\Yassir.JERRARI\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Yassir.JERRARI\\source\\repos\\SWAGGER_CONFIG_API\\Infastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Yassir.JERRARI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Yassir.JERRARI\\source\\repos\\SWAGGER_CONFIG_API\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Yassir.JERRARI\\source\\repos\\SWAGGER_CONFIG_API\\Application\\Application.csproj"
+              },
+              "C:\\Users\\Yassir.JERRARI\\source\\repos\\SWAGGER_CONFIG_API\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Yassir.JERRARI\\source\\repos\\SWAGGER_CONFIG_API\\Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Yassir.JERRARI\\source\\repos\\SWAGGER_CONFIG_API\\SWAGGER_CONFIG_API\\SWAGGER_CONFIG_API.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +243,14 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Yassir.JERRARI\\source\\repos\\SWAGGER_CONFIG_API\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Yassir.JERRARI\\source\\repos\\SWAGGER_CONFIG_API\\Application\\Application.csproj"
+              },
+              "C:\\Users\\Yassir.JERRARI\\source\\repos\\SWAGGER_CONFIG_API\\Infastructure\\Infastructure.csproj": {
+                "projectPath": "C:\\Users\\Yassir.JERRARI\\source\\repos\\SWAGGER_CONFIG_API\\Infastructure\\Infastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -44,12 +267,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.5.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -61,14 +278,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }

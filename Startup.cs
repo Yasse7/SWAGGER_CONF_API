@@ -23,6 +23,15 @@ namespace SWAGGER_CONFIG_API
             services.AddControllers();
             //dds Swagger generation services
             services.AddSwaggerGen();
+
+            services.AddMvc();
+
+            services.AddMediatR(Assembly.GetExecutingAssembly());
+            services.AddMediatR(AppDomain.CurrentDomain.GetAssemblies());
+            //infrastrucure interface injection 
+            services.AddInfrastructureConfiguration();
+            //Application interfaces injections : 
+            services.AddApplicationConfiguration();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -31,8 +40,7 @@ namespace SWAGGER_CONFIG_API
             if (env.IsDevelopment())//if it runs
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI();//for exploring the API documentation
+                
             }
 
             app.UseRouting();
@@ -41,6 +49,9 @@ namespace SWAGGER_CONFIG_API
             {
                 endpoints.MapControllers();//it maps controllers to handle incoming requests.
             });
+            
+            app.UseSwagger();
+            app.UseSwaggerUI();//for exploring the API documentation
         }
     }
 }

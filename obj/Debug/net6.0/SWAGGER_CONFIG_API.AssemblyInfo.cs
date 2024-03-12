@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SWAGGER_CONFIG_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0cd4d0ea89a51319c3a8b244d70b61a5304e3c5e")]
 [assembly: System.Reflection.AssemblyProductAttribute("SWAGGER_CONFIG_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SWAGGER_CONFIG_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
 using RouteAttribute = Microsoft.AspNetCore.Components.RouteAttribute;
+using Application.Students;
+using MediatR;
 
 namespace SWAGGER_CONFIG_API.Controller
 {
@@ -8,19 +10,21 @@ namespace SWAGGER_CONFIG_API.Controller
     [Route("v1")]
     public class StudentController : ControllerBase
     {
+        private readonly IMediator _mediator;
         public StudentController() { }
-        //v1
-        [HttpGet("version")]
-        public int GetVersion() { return 1; }
-        //v1
-        [HttpPost("post")]
-        public int PostVersion([FromBody] PostSt version) { return version.Id; }
+       
+        [HttpGet("students")]
+        public async Task<IActionResult> GetStudent(CancellationToken cancellationToken)
+        {
 
-    }
-    public class PostSt
-    {
-        public int Id { get; set; }
-        public string Title { get; set; }
-        public float version { get; set; }
+            var query = new GetStudentsQuery
+            {
+            };
+            var result = await _mediator.Send(query, cancellationToken);
+            return Ok(result);
+
+        }
+        
+
     }
 }
